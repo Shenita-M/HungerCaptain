@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.header{
+    position: relative;
+    width: 100%;
+}
+
+.header img{
+    width:100%
+}
+
+.header .logo{
+    position:absolute;
+    top: 0%;
+    left: 10%;
+    width:10%;
+}
+
+.header .content {
+    position:absolute;
+    left: 10%;
+    top: 45%;
+    font-size: 45px;
+    color: white;
+}
+
+.header .content h1 {
+    color: #E1A700;
+}
+
+/*Content2 */ 
+
+.content2{
+    position:relative;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.content2 h3 {
+    color: #A80E0E;
+    font-size: 4vh;
+    padding: 35px;    
+}
+
+.content2 h4 {
+    color: #382E36;
+    padding: 21px;
+}
+
+.content2 .button button:hover{
+    background-color: #E1A700;
+}
+
+.content2 .button button{
+    color: #faf9f9;
+    background-color: #A80E0E;
+    border-style: hidden;
+    border-radius: 1rem;
+    text-align: center;
+    width: 7%;
+    margin: 1%;
+    height: 6vh;  
+}
+
+.footer {
+    color: #808080;
+    text-align: center;
+}
+
+.footer h5 {
+    line-height: 25px;
+}
+
+.footer h5.email {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-top: 10px;
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding: 2% 1%;
+    grid-gap: 3rem;
+  
+}
+
+.menu .item .image-container img {
+    width: 100%;
+}
+.menu .item .image-container {
+    width: 100%;
+}
+.menu .item .description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+        
+}
+
+.menu .item .description .like {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 7%;
+    
+}
+.menu .item .description .item-heading h3 {
+    font-weight: normal;
+}
+.menu .item .description .reviews {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    margin: 2% 0;
+}   
+
+.menu .item .description .reviews a {
+    text-decoration: none;
+}
+.menu .item .description .btn {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: #A80E0E;
+    padding: 3% 0%; 
+    
+}
+
+.menu .item .description .btn button {
+    background-color: #e1a72b;
+    color: white;
+    padding: 1vw 3vw;
+    border: none;
+    border-radius: 3vw;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 18vw;
+}
+.menu .item .description .btn button img {
+    width: 2vw;
+}
