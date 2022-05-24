@@ -133,7 +133,9 @@ hr {
     padding: 3% 0%; 
     
 }
-
+.pop-menu img {
+    width: 2%;
+}
 .menu .item .description .btn button {
     background-color: #e1a72b;
     color: white;
@@ -148,4 +150,45 @@ hr {
 }
 .menu .item .description .btn button img {
     width: 2vw;
+}
+
+.popup {
+    position: fixed;
+    /* background-color: rgba(0.5, 0.5, 0.5, 0.6); */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 20%;
+    z-index: 2;
+}
+.popup .popup-inner {
+    background-color: white;
+    position: relative;
+    z-index: 3;
+    width: 75%;
+    top: 15%;
+    margin: 0;
+}
+.popup .popup-inner .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2%;
+   
+    
+}
+.popup .popup-inner .inputs input {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+
+}
+.popup .popup-inner .inputs button {
+    background-color: #e1a72b;
+    color: white;
+    border-radius: 2vw;
+    width: 9vw;
+    padding: 1%;
+    border: none;
 }
