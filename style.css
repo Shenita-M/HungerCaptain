@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* Header */
+/* Home.html Header */
 
 .header{
     position: relative;
@@ -32,20 +32,22 @@
 .header .content h1 {
     color: #E1A700;
 }
+.content {
+    position: absolute;
+    top: 96%;
+}
 
 /*Content2 */ 
 
-.content2{
+.content2 {
     position:relative;
     width: 100%;
     text-align: center;
     padding: 50px 0px;
 }
 
-.content2 h5 {
+.content2 h3 {
     color: #A80E0E;
-    font-size: 3vh;
-    padding: 35px;    
     font-weight: normal;
 }
 
@@ -80,7 +82,9 @@
 
 .footer h5.email {
     margin-bottom: 10px;
+    color: black;
 }
+
 
 hr {
     margin-top: 10px;
@@ -94,9 +98,7 @@ hr {
     display: grid;
 }
 
- 
-}
-.brush{
+.brush {
     position: absolute;
     top: 96%;
 }
@@ -244,6 +246,11 @@ hr {
 
 /* Cart */
 
+.contnet .brush {
+        position: absolute;
+        top: 96%;
+}
+
 .cart-box {
     display: flex;
     gap: 50px;
@@ -287,4 +294,25 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin: 34px 193px;
+}
+
+.content2  h5 {
+    font-size: 2vw;
+    font-weight: normal;
+    color: #A80E0E;
+    padding-bottom: 20px;
+}
+
+.subtotal button {
+    border-radius: 7px;
+    border: none;
+    background-color: #A80E0E;
+    color: white;
+    font-weight: bold;
+    width: 9%;
+    height: 4vh;
+}
+
+.subtotal .subtotal-test {
+    font-weight: bold;
 }
